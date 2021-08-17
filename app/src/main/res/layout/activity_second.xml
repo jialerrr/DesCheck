@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/setup"
+    tools:context=".SecondActivity">
+
+    <Spinner
+        android:id="@+id/spnArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinnerPrice" />
+
+    <Button
+        android:id="@+id/btnShow5Stars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#00FFFF"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/btn5Stars" />
+
+    <Button
+        android:id="@+id/buttonaddHard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#00FFFF"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/add_an_island" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants">
+
+    </ListView>
+
+</LinearLayout>

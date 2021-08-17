@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DesCheck</string>
+    <string name="name">Hardware Name</string>
+    <string name="hint_name">Enter name of hardware here</string>
+    <string name="desc">Description</string>
+    <string name="hint_desc">Enter hardware description here</string>
+    <string name="price">Price</string>
+    <string name="hint_price">Enter price of hardware here</string>
+    <string name="stars">Stars</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
+    <string name="one">1</string>
+
+    <string name="title_activity_main">Insert Hardware</string>
+    <string name="title_activity_second">Show Hardware</string>
+    <string name="title_activity_third">Modify Hardware</string>
+
+    <string name="id">Hardware ID</string>
+    <string name="btnShowList">Show List</string>
+    <string name="btnInsert">Insert</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="btn5Stars">Show all hardwares with 5 stars</string>
+    <string name="add_an_island">Add a Hardware</string>
+
+    <string-array name="spinnerPrice">
+    </string-array>
+</resources>
